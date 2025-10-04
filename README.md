@@ -1,6 +1,11 @@
 # Plutu TypeScript SDK (Unofficial)
 
-A comprehensive unofficial Typescript implementation for the [Plutu](https://docs.plutu.ly/) payment gateway API provided by Libyan Spider.
+A comprehensive unofficial Typescript implementation for the [Plutu payment gateway API](https://docs.plutu.ly/) provided by [Libyan Spider](https://libyanspider.com/).
+
+Please refer to the official Plutu API documentation for detailed information or changes in the API.
+
+Full documentation can be found at: [https://docs.plutu.ly](https://docs.plutu.ly/).
+LLM friendly version of the documentation: [https://docs.plutu.ly/llms-full.txt](https://docs.plutu.ly/llms-full.txt).
 
 ## Installation
 
@@ -35,23 +40,6 @@ const confirm_localbanks = await plutu.local_bank_cards.confirm({
 ```
 
 ## Available Functions
-    sadad: {
-      verify: (payload: SadadVerifyPayload) => sadadVerify(config, payload),
-      confirm: (payload: SadadConfirmPayload) => sadadConfirm(config, payload),
-    },
-    adfali: {
-      verify: (payload: AdfaliVerifyPayload) => adfaliVerify(config, payload),
-      confirm: (payload: AdfaliConfirmPayload) => adfaliConfirm(config, payload),
-    },
-    local_bank_cards: {
-      confirm: (payload: LocalBankCardsConfirmPayload) => localBankCardsConfirm(config, payload),
-    },
-    mpgs: {
-      confirm: (payload: MpgsConfirmPayload) => mpgsConfirm(config, payload),
-    },
-    tlync: {
-      confirm: (payload: TlyncConfirmPayload) => tlyncConfirm(config, payload),
-    }
 
 ### Sadad
 
@@ -74,5 +62,3 @@ const confirm_localbanks = await plutu.local_bank_cards.confirm({
 ### T-Lync
 
 - `tlync.confirm(payload: TlyncConfirmPayload)`
-
-Please refer to the official Plutu API documentation for detailed information on the required payloads for each function.
