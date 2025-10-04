@@ -1,6 +1,6 @@
-# Plutu TypeScript SDK
+# Plutu TypeScript SDK (Unofficial)
 
-A comprehensive non-official Typescript implementation for the Plutu payment gateway API provided by Libyan Spider
+A comprehensive unofficial Typescript implementation for the [Plutu](https://docs.plutu.ly/) payment gateway API provided by Libyan Spider.
 
 ## Installation
 
