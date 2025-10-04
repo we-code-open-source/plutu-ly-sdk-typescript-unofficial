@@ -4,8 +4,9 @@ A comprehensive unofficial Typescript implementation for the [Plutu payment gate
 
 Please refer to the official Plutu API documentation for detailed information or changes in the API.
 
-Full documentation can be found at: [https://docs.plutu.ly](https://docs.plutu.ly/).
-LLM friendly version of the documentation: [https://docs.plutu.ly/llms-full.txt](https://docs.plutu.ly/llms-full.txt).
+Full documentation can be found at: [https://docs.plutu.ly](https://docs.plutu.ly/)
+
+LLM friendly version of the documentation: [https://docs.plutu.ly/llms-full.txt](https://docs.plutu.ly/llms-full.txt)
 
 ## Installation
 
