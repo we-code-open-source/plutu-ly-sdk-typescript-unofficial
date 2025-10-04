@@ -1,0 +1,12 @@
+{
+  "version": "0.0.2",
+  "name": "pluto-ly-sdk-unofficial",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
