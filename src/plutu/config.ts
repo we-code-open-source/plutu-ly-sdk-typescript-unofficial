@@ -1,13 +1,13 @@
 /**
- * @file Pluto SDK Configuration
- * @description Handles the configuration for the Pluto API client.
+ * @file plutu SDK Configuration
+ * @description Handles the configuration for the plutu API client.
  */
 
 /**
- * Represents the configuration for the Pluto SDK.
+ * Represents the configuration for the plutu SDK.
  * @interface
  */
-export interface PlutoConfig {
+export interface plutuConfig {
   apiKey: string;
   accessToken: string;
   secretKey?: string;

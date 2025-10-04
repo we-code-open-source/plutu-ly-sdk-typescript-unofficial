@@ -1,8 +1,22 @@
 {
-  "version": "0.0.2",
-  "name": "pluto-ly-sdk-unofficial",
+  "name": "plutu-ly-sdk-unofficial",
+  "version": "0.0.3",
+  "description": "A non-official Typescript implementation for the Plutu payment gateway API provided by Libyan Spider.",
   "module": "index.ts",
   "type": "module",
+    "keywords": [
+    "plutu",
+    "payment",
+    "gateway",
+    "sdk",
+    "typescript"
+  ],
+  "author": "Open Source Initiative",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/we-code-open-source/plutu-ly-sdk-typescript-unofficial.git"
+  },
+
   "devDependencies": {
     "@types/bun": "latest"
   },

@@ -2,7 +2,7 @@
   "lockfileVersion": 1,
   "workspaces": {
     "": {
-      "name": "pluto-ly-sdk-unofficial",
+      "name": "plutu-ly-sdk-unofficial",
       "devDependencies": {
         "@types/bun": "latest",
       },

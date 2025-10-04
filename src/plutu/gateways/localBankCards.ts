@@ -3,7 +3,7 @@
  * @description Implements the Local Bank Cards payment gateway functionalities.
  */
 
-import type { PlutoConfig } from "../config";
+import type { plutuConfig } from "../config";
 import type {
   LocalBankCardsConfirmPayload,
   CheckoutRedirectResponse,
@@ -16,12 +16,12 @@ import { post } from "../client";
 /**
  * Initiates a payment transaction with Local Bank Cards.
  *
- * @param {PlutoConfig} config - The Pluto API configuration.
+ * @param {plutuConfig} config - The plutu API configuration.
  * @param {LocalBankCardsConfirmPayload} payload - The data required for the transaction.
  * @returns {Promise<CheckoutRedirectResponse>} A promise that resolves with the checkout redirect response.
  */
 export const localBankCardsConfirm = (
-  config: PlutoConfig,
+  config: plutuConfig,
   payload: LocalBankCardsConfirmPayload
 ): Promise<CheckoutRedirectResponse> => {
   const url = getApiUrl("/transaction/localbankcards/confirm");

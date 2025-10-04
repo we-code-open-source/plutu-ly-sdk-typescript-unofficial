@@ -1,11 +1,11 @@
 /**
- * @file Pluto SDK Main Entry
- * @description Exports all the functionalities of the Pluto SDK.
+ * @file plutu SDK Main Entry
+ * @description Exports all the functionalities of the plutu SDK.
  */
 
-import type { PlutoConfig } from "./src/pluto/config";
-export type { PlutoConfig } from "./src/pluto/config";
-export * from "./src/pluto/types";
+import type { plutuConfig } from "./src/plutu/config";
+export type { plutuConfig } from "./src/plutu/config";
+export * from "./src/plutu/types";
 
 import {
   sadadVerify,
@@ -15,11 +15,11 @@ import {
   localBankCardsConfirm,
   mpgsConfirm,
   tlyncConfirm,
-} from "./src/pluto/gateways";
-import type { SadadVerifyPayload, SadadConfirmPayload, AdfaliVerifyPayload, AdfaliConfirmPayload, LocalBankCardsConfirmPayload, MpgsConfirmPayload, TlyncConfirmPayload } from "./src/pluto/types";
+} from "./src/plutu/gateways";
+import type { SadadVerifyPayload, SadadConfirmPayload, AdfaliVerifyPayload, AdfaliConfirmPayload, LocalBankCardsConfirmPayload, MpgsConfirmPayload, TlyncConfirmPayload } from "./src/plutu/types";
 
 
-export function create_pluto_sdk(config: PlutoConfig) {
+export function create_plutu_sdk(config: plutuConfig) {
 
   return {
     sadad: {

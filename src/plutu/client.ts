@@ -1,22 +1,22 @@
 /**
- * @file Pluto API Client
- * @description A simple HTTP client for making requests to the Pluto API.
+ * @file plutu API Client
+ * @description A simple HTTP client for making requests to the plutu API.
  */
 
-import type { PlutoConfig } from "./config";
+import type { plutuConfig } from "./config";
 
 /**
- * Makes a POST request to the Pluto API.
+ * Makes a POST request to the plutu API.
  *
  * @param {string} url - The full URL for the API endpoint.
- * @param {PlutoConfig} config - The configuration object containing the API key and access token.
+ * @param {plutuConfig} config - The configuration object containing the API key and access token.
  * @param {Record<string, any>} data - The data to be sent in the request body.
  * @returns {Promise<any>} A promise that resolves with the JSON response from the API.
  * @throws {Error} If the API request fails.
  */
 export const post = async (
   url: string,
-  config: PlutoConfig,
+  config: plutuConfig,
   data: Record<string, any>
 ): Promise<any> => {
   try {
@@ -43,7 +43,7 @@ export const post = async (
 
     return await response.json();
   } catch (error) {
-    console.error("Pluto API Error:", error);
+    console.error("plutu API Error:", error);
     throw error;
   }
 };

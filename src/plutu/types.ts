@@ -1,5 +1,5 @@
 /**
- * @file Type definitions for the Pluto SDK
+ * @file Type definitions for the plutu SDK
  * @description Contains all the core type definitions used throughout the SDK.
  */
 
